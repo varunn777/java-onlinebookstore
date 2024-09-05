@@ -8,12 +8,12 @@ pipeline {
         }
         stage ('build') {
             steps {
-                echo "This is build stage"
+                echo "This is build stage "
             }
         }
         stage ('sonarscan') {
             steps {
-                echo "This is sonarscan stage"
+                echo "This is sonarscan stage "
             }
         }               
         stage ('push') {
@@ -23,7 +23,7 @@ pipeline {
         }
         stage ('deploy') {
             steps {
-                echo "This is deploy stage"
+                echo "This is deploy stage "
             }
         }                    
     }
